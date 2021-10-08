@@ -1,0 +1,78 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    padding: 10px;
+    background-position: top center;
+    background-color: #f6f6f6;
+    margin-top: 20px;
+}
+.logo img{
+    width: 200px;
+    margin: 15px 0px 40px 90px;
+}
+
+.manu nav ul li{
+    list-style: none;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    font-size: 20px;
+    color:#808080;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: 0.8s;
+
+}
+.manu nav ul li a{
+    color:#808080; 
+    text-decoration: none;
+}
+.manu nav ul li:hover{
+    border: 1px solid #f6f6f6;
+    padding: 4px 12px;
+    border-radius: 20px;
+}.border{
+    background-color: black;
+    padding: 02px 0px;
+    width: auto;
+}
+.contact-sec1{
+    background-color:black;
+    padding: 20px 0px;
+}
+.contact-sec2{
+    background-color:black;
+    padding: 20px 0px;
+}
+
+.footer-sec{
+    padding-top: 15px;
+    background-color:#ff4000;
+}
+.footer-sec p{
+    text-align: center;
+    color:#f6f6f6
+}
+
+
+/* media query */
+
+/* mobile device */
+@media ( max-width:500px){}
+
+/* small device */
+@media(min-width:501px) and (max-width:768px){}
+
+/* tab/notebook */
+@media(min-width:768.1px) and (max-width:992px){}
+
+/* desktop device */
+@media(min-width:992.1px) and (max-width:1200px){}
+
+/* large device */
+@media(min-width:1200.1px){}
+
+
